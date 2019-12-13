@@ -1,7 +1,80 @@
-# 3x4 tiles with left turns at the corners going in a counter-clockwise loop
+objects:
+  tag300:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.765
+        - 1.045
+        theta_deg: 180
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 300
+  tag301:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.120
+        - 1.045
+        theta_deg: 180
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 301
+  tag302:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.437
+        - 1.045
+        theta_deg: 180
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 302
+  tag303:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.592
+        - 0.890
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 303
+  tag304:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.590
+        - 0.748
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 304
+tile_size: 0.555
 tiles:
-- [curve_left/W , straight/W, straight/W, curve_left/N]
-- [straight/S   , asphalt   , asphalt   , straight/N]
-- [curve_left/S , straight/E, straight/E, curve_left/E]
-
-tile_size: 0.5575
+- - curve_left/W
+  - straight/W
+  - straight/W
+  - curve_left/N
+- - straight/S
+  - asphalt
+  - asphalt
+  - straight/N
+- - curve_left/S
+  - straight/E
+  - straight/E
+  - curve_left/E
