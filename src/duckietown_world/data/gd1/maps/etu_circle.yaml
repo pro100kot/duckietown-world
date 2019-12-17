@@ -64,6 +64,71 @@ objects:
         family: 36h11
         size: 0.065
         tag_id: 304
+  tag305:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.418
+        - 0.602
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 305
+  tag306:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 1.112
+        - 0.602
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 306
+  tag307:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.749
+        - 0.6
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 307
+  tag308:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.59
+        - 0.737
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 308
+  tag309:
+    kind: floor_tag
+    pose:
+      ~SE2Transform:
+        p:
+        - 0.59
+        - 0.888
+        theta_deg: 90
+    tag:
+      ~TagInstance:
+        family: 36h11
+        size: 0.065
+        tag_id: 309
 tile_size: 0.555
 tiles:
 - - curve_left/W
