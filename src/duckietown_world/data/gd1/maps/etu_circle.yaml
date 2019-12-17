@@ -129,7 +129,7 @@ objects:
         family: 36h11
         size: 0.065
         tag_id: 309
-tile_size: 0.545
+tile_size: 0.555
 tiles:
 - - curve_left/W
   - straight/W
